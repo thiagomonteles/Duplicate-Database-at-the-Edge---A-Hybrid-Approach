@@ -1,46 +1,32 @@
-# Projeto: Banco de Dados Replicados na Edge - Uma Abordagem Híbrida
+# Project: Edge-Replicated Databases - A Hybrid Approach
 
-## Alunos:
+## Students:
 - Ben Hur Faria Reis
 - Filipe Silveira Chaves
 - Thiago Monteles de Sousa
 - Felipe Aguiar Costa
 - João Paulo Rocha
 
-**Contextualização**:
-No contexto de replicação de bancos de dados, as abordagens de consistência forte ou eventual oferecem garantias diferentes, 
-sendo que em alguns casos, uma ou outra é mais recomendada. Nesse sentido, 
-o projeto pretende criar um banco de dados replicado de forma que duas abordagens de consistência estejam implementadas,
-e com base no uso, o usuário pode escolher qual prefere utilizar.
+**Context:**
+In the context of database replication, strong consistency or eventual consistency approaches offer different guarantees, where in some cases, one or the other is more recommended. In this sense, the project aims to create a replicated database so that both consistency approaches are implemented, and based on usage, the user can choose which one they prefer to use.
 
+**Objectives:**
 
-**Objetivos:**
+- Develop an edge-replicated database that offers both strong consistency and eventual consistency.
+- Explore the use of techniques such as Conflict-free Replicated Data Types (CRDT) to ensure eventual consistency.
+- Use the Raft algorithm to ensure strong consistency.
+- Provide users with the ability to select the consistency approach that best suits their needs and the context of use of the replicated database.
 
-- Desenvolver um banco de dados replicado na edge que ofereça consistência forte e consistência eventual.
-- Explorar o uso de técnicas como os Conflict-free Replicated Data Types (CRDT) para garantir a consistência eventual.
-- Utilizar o algoritmo Raft para assegurar a consistência forte.
-- Proporcionar aos usuários a capacidade de selecionar a abordagem de consistência mais adequada às suas necessidades e ao contexto de uso do banco de dados replicado.
+## Project Stages:
 
+### To complete the project, we will have the following stages:
 
-## Etapas do Projeto:
-
-### Para concluir o projeto, teremos as seguintes etapas:
-
-1. Revisão bibliográfica: (TODOS) 
-2. Elaboração de apresentações internas sobre métodos de consistência (TODOS) 
-3. Decisão sobre os métodos de consistência (TODOS) 
-4. Elaboração de um esquema arquitetural de comunicação e dados. (TODOS) 
-5. Codificação de um banco de dados replicado (Felipe Aguiar, Ben Hur)
-6. Codificação do protocolo CRDT (Felipe Aguiar)
-7. Codificação do protocolo RAFT (Filipe Chaves, João Paulo)
-8. Codificação de um visualizador dos estados dos nós (Thiago, Ben Hur)
-9. Codificação do agregador final dos protocolos e banco de dados replicado 
-
-## Tabela de Status:
-
-| Status        | Etapas                                        | Observação                               |
-|---------------|-----------------------------------------------|------------------------------------------|
-| Concluída     | 1 ao 4                                        |                                          |
-| Em andamento  | 5, 6, 7, 8                                   | Todos possuem algum nível de implementação |
-| Em breve      | 9                                             | Etapa final                              |
-
+1. Literature review: (ALL)
+2. Preparation of internal presentations on consistency methods: (ALL)
+3. Decision on consistency methods: (ALL)
+4. Development of an architectural scheme of communication and data: (ALL)
+5. Coding of a replicated database: (Felipe Aguiar, Ben Hur)
+6. Coding of the CRDT protocol: (Felipe Aguiar)
+7. Coding of the RAFT protocol: (Filipe Chaves, João Paulo)
+8. Coding of a node state viewer: (Thiago, Ben Hur)
+9. Coding of the final aggregator of protocols and replicated database
